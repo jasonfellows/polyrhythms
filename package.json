@@ -2,6 +2,7 @@
   "name": "polyrhythms",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jasonfellows.github.io/polyrhythms",
   "dependencies": {
     "d3": "^4.10.2",
     "gh-pages": "^1.0.0",
