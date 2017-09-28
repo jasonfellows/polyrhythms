@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Track from './Track';
+import Note from '../src/components/Note';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Track />, div);
+  ReactDOM.render(<Note />, div);
 });
