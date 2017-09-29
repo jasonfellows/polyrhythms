@@ -5,6 +5,7 @@ class Polyrhythms extends Component {
   render() {
     return (
       <div className='polyrhythms'>
+        hello
       </div>
     );
   }
