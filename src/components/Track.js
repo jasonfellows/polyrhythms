@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Note from './Note.js';
+import * as svg from 'd3';
 import './Track.css';
 
 class Track extends Component {
@@ -25,16 +26,16 @@ class Track extends Component {
         fill: "orange",
         stroke: "orange"
     });
-  },
+  }
 
   renderNotes() {
     return "";
-  },
+  }
 
   render() {
     return (
       <div className="track">
-        {renderNotes()}
+        {this.renderNotes()}
       </div>
     );
   }
