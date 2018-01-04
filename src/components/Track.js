@@ -4,7 +4,7 @@ import * as d3 from 'd3'
 import './Track.css'
 
 class Track extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
       position: props.position,
@@ -14,15 +14,15 @@ class Track extends Component {
     }
   }
 
-  componentDidMount() {
-
-  }
-
-  componentDidUpdate() {
+  componentDidMount () {
     this.createTrack()
   }
 
-  createTrack() {
+  componentDidUpdate () {
+    this.createTrack()
+  }
+
+  createTrack () {
     // const node = this.node
     // const originX = 0
     // const originY = 0
@@ -38,14 +38,14 @@ class Track extends Component {
     // })
   }
 
-  style() {
+  style () {
     return {
-      width: "100px",
-      height: "100px"
+      width: '100px',
+      height: '100px'
     }
   }
 
-  render() {
+  render () {
     let notes = [
       {key: 1, midiNote: 22, originX: 10, originY: 0},
       {key: 2, midiNote: 22, originX: 10, originY: 10},
@@ -53,7 +53,7 @@ class Track extends Component {
       {key: 4, midiNote: 22, originX: 0, originY: 0}]
 
     return (
-      <div className="track" style={this.style()} >
+      <div className='track' style={this.style()} >
         {notes.map((note) =>
           <Note {...note} />
         )}
