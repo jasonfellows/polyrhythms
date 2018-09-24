@@ -5,7 +5,6 @@
   "homepage": "https://jasonfellows.github.io/polyrhythms",
   "dependencies": {
     "d3": "^4.10.2",
-    "gh-pages": "^1.0.0",
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
